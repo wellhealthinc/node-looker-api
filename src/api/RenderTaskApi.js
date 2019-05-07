@@ -415,7 +415,7 @@
       var authNames = ['oauth2'];
       var contentTypes = ['application/json'];
       var accepts = ['image/jpeg', 'image/png', 'application/pdf'];
-      var returnType = 'String';
+      var returnType = Object;
 
       return this.apiClient.callApi(
         '/render_tasks/{render_task_id}/results', 'GET',
